@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>1 Random Site</title>
+    <style>
+        body {
+            background: url('C:/Users/epala/Downloads/mabro.png') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        h1, h2 {
+            color: rgb(255, 0, 0);
+            text-align: center; /* Κεντράρισμα τίτλου */
+            text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8); /* Increase shadow blur */
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 30px rgba(255, 0, 0, 0.9); /* Stronger glowing effect */
+        }
+
+        p {
+            text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); /* Slight shadow on text */
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* Stronger border blur */
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 2px solid white;
+            padding: 10px;
+            text-align: left;
+            color: black;
+        }
+
+        th {
+            background-color: gray;
+        }
+
+        td {
+            background-color: white;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        table tr:hover {
+            background-color: #ddd;
+        }
+
+        form {
+            width: 300px;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            color: black;
+            margin-top: 20px;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            color: black;
+            font-size: 16px;
+        }
+
+        form input[type="submit"] {
+            background-color: #007BFF;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        div {
+            border: 2px solid black;
+            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5); /* Stronger shadow effect */
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        @media (max-width: 768px) {
+            form {
+                width: 100%;
+                padding: 15px;
+            }
+
+            table {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>My First Site</h1>
+    <p>
+        <strong>The Benefits of the Erasmus+ Program</strong><br><br>
+        The Erasmus+ program is one of the most valuable opportunities for students and young professionals in Europe. 
+        It provides financial support for studying, training, volunteering, or gaining work experience abroad. <br><br>
+        <strong>1. Cultural Exchange and International Experience</strong> <br>
+        <strong>2. Personal Development</strong> <br>
+        <strong>3. Academic and Professional Advantages</strong> <br>
+        <strong>4. Language Skills Improvement</strong> <br>
+        <strong>5. Networking Opportunities</strong> <br>
+        <strong>6. Financial Support</strong> <br><br>
+    </p>
+    <p>
+        <br><br>
+        <strong>The Benefits of the Erasmus+ Program</strong>  
+        <br><br>
+        The Erasmus+ program is one of the most valuable opportunities for students and young professionals in Europe. 
+        It provides financial support for studying, training, volunteering, or gaining work experience abroad. 
+        Here are some of the key benefits of participating in Erasmus+:  
+        <br><br>
+        <strong>1. Cultural Exchange and International Experience</strong>  
+        Living in a foreign country allows participants to immerse themselves in a new culture, meet people from different backgrounds, 
+        and develop a global mindset. This experience enhances cultural awareness and adaptability.  
+        <br><br>
+        <strong>2. Personal Development</strong>  
+        Erasmus+ helps students become more independent, confident, and resilient. Moving to a new country requires problem-solving skills 
+        and adaptability, which are essential for personal growth.  
+        <br><br>
+        <strong>3. Academic and Professional Advantages</strong>  
+        Studying or working in a different country can improve academic performance and provide valuable international experience. 
+        Many employers value Erasmus+ participants for their ability to work in diverse teams and adapt to new environments.  
+        <br><br>
+        <strong>4. Language Skills Improvement</strong>  
+        Living abroad is one of the best ways to learn or improve a foreign language. Erasmus+ provides an immersive language-learning experience, 
+        which can boost career opportunities.  
+        <br><br>
+        <strong>5. Networking Opportunities</strong>  
+        Erasmus+ participants meet people from all over the world, building international friendships and professional connections that can be beneficial for future careers.  
+        <br><br>
+        <strong>6. Financial Support</strong>  
+        The program offers grants to help cover travel and living expenses, making international experiences more accessible to students from different economic backgrounds.  
+        <br><br>
+        Overall, Erasmus+ is a life-changing experience that enhances education, career prospects, and personal development. 
+        It is an investment in the future that provides invaluable skills and opportunities.  
+        <br><br>
+        <img src="C:/Users/epala/Downloads/pngegg.png" alt="erasmous" width="200" height="100">
+        <img src="C:/Users/epala/Downloads/ela.png" alt="erasmous" width="100" height="50">
+        <img src="C:/Users/epala/Downloads/epal.png" alt="erasmous" width="100" height="100">
+    </p>
+
+    <h2>Contact Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required placeholder="Enter your name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required placeholder="Enter your email">
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" required placeholder="Enter your age">
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" required placeholder="Enter your message"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+    
+    <button onclick="window.location.href='dio.html';">About Me</button>
+    <button onclick="window.location.href='https://www.youtube.com/watch?v=CVsbTCdTyAM';">Ema Mistiko</button>
+</body>
+</html>
